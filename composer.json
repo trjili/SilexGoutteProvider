@@ -1,0 +1,32 @@
+{
+    "name": "tarek/silex-goutte-provider",
+    "description": "Goutte service provider for Silex",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+      "silex",
+      "goutte",
+      "scraper"
+    ],
+    "authors": [
+        {
+            "name": "Tarek Rjili",
+            "email": "tarek.rjili@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "silex/silex" : "~1.1"
+    },
+    "require-dev": {
+      "phpunit/phpunit" : "@stable"
+    },
+    "autoload": {
+      "psr-4": {  "Trjili\\Silex\\": "src/" }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Trjili\\Silex\\": "tests/"
+      }
+    }
+}
