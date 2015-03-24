@@ -1,5 +1,5 @@
 {
-    "name": "tarek/silex-goutte-provider",
+    "name": "trjili/silex-goutte-provider",
     "description": "Goutte service provider for Silex",
     "type": "library",
     "license": "MIT",
